@@ -27,4 +27,17 @@ which can improve diagnosis and treatment planning.
 - `segmentation.py` – Tumor segmentation logic
 - `requirements.txt` – Required libraries
 - `README.md` – Project documentation
+Install dependencies :
+Run the app :
+-  Upload MRI image and view segmented tumor.
 
+## Expected Results
+- Dice Score: 0.80–0.90
+- IoU: 0.75–0.85
+- Real-time inference on images
+- Clear segmentation even on small tumors
+
+## Project Benefits
+- Faster and more accurate diagnosis
+- Useful for telemedicine and remote areas
+- Can be extended with deep learning (U-Net, YOLO)
